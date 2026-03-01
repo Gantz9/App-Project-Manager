@@ -1,0 +1,5 @@
+{
+  "name": "RoboTripod Manager",
+  "description": "Sistema integral de gestión para el desarrollo del tripié robótico con seguimiento automático.",
+  "requestFramePermissions": []
+}

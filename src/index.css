@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 font-sans;
+  }
+}
+
+.data-grid-row {
+  @apply grid grid-cols-4 gap-4 p-4 border-b border-zinc-200 hover:bg-zinc-100 transition-colors cursor-default;
+}
+
+.status-pill {
+  @apply px-2 py-1 rounded-full text-xs font-medium;
+}
+
